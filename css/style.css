@@ -1,0 +1,66 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans:wght@400;500&display=swap');
+body{
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headline{
+    color: #ffffff;
+}
+
+.bg-header{
+    background-color: cornflowerblue;
+}
+/* input field */
+input{
+    background-color: rgba(128, 128, 128, 0.247);
+    border: none;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    border-radius: 5px;
+     
+}
+input:focus {
+    background-color: rgba(0, 0, 0, 0.808) !important;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+  }
+.bank-calculator{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+/* Button style */
+#calculate-btn{
+    border: none;
+   color: #fff;
+   background-color: #9E7BFF;
+   padding: 6px 20px;
+   border-radius: 5px;
+   font-weight: 600;
+}
+#calculate-btn:hover{
+    background-color: #6842d1;
+    cursor: pointer;
+}
+#save-btn{
+    border: none;
+   color: #fff;
+   background-color: #9E7BFF;
+   border-radius: 5px;
+   font-weight: 600;
+   padding: 5px 15px;
+}
+#save-btn:hover{
+    background-color: #6842d1;
+    cursor: pointer;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+}
